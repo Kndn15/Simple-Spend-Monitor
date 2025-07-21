@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Spend Monitor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Simple Spend Monitor</h1>
+    </header>
+    <main>
+        <select id="currency-select">
+            <option value="" disabled selected>Select Currency</option>
+            <option value="USD">$ US Dollar (USD)</option>
+            <option value="EUR">€ Euro (EUR)</option>
+            <option value="GBP">£ British Pound (GBP)</option>
+            <option value="INR">₹ Indian Rupee (INR)</option>
+            <option value="JPY">¥ Japanese Yen (JPY)</option>
+            <option value="AUD">A$ Australian Dollar (AUD)</option>
+            <option value="CAD">C$ Canadian Dollar (CAD)</option>
+            <option value="CNY">¥ Chinese Yuan (CNY)</option>
+            <option value="CHF">CHF Swiss Franc (CHF)</option>
+            <option value="SGD">S$ Singapore Dollar (SGD)</option>
+            <option value="HKD">HK$ Hong Kong Dollar (HKD)</option>
+            <option value="NZD">NZ$ New Zealand Dollar (NZD)</option>
+            <option value="KRW">₩ South Korean Won (KRW)</option>
+            <option value="BRL">R$ Brazilian Real (BRL)</option>
+            <option value="ZAR">R South African Rand (ZAR)</option>
+            <option value="MXN">$ Mexican Peso (MXN)</option>
+            <option value="RUB">₽ Russian Ruble (RUB)</option>
+            <option value="SEK">kr Swedish Krona (SEK)</option>
+            <option value="NOK">kr Norwegian Krone (NOK)</option>
+            <option value="DKK">kr Danish Krone (DKK)</option>
+            <option value="TRY">₺ Turkish Lira (TRY)</option>
+            <option value="SAR">ر.س Saudi Riyal (SAR)</option>
+            <option value="AED">د.إ UAE Dirham (AED)</option>
+            <option value="THB">฿ Thai Baht (THB)</option>
+            <option value="IDR">Rp Indonesian Rupiah (IDR)</option>
+            <option value="MYR">RM Malaysian Ringgit (MYR)</option>
+            <option value="PLN">zł Polish Zloty (PLN)</option>
+            <option value="PHP">₱ Philippine Peso (PHP)</option>
+            <option value="EGP">ج.م Egyptian Pound (EGP)</option>
+            <option value="NGN">₦ Nigerian Naira (NGN)</option>
+        </select>
+        <h4>Balance</h4>
+        <h3>0.00</h3>
+        <div>
+            <span>
+                <p>INCOME</p>
+                <p>0.00</p>
+            </span>
+            <span>
+                <p>EXPENSE</p>
+                <p>0.00</p>
+            </span>
+        </div>
+        <div>
+            <h2>Add New Transaction</h2>
+            <input type="number" placeholder="Amount">
+            <input type="text" placeholder="Description">
+            <input type="date" placeholder="Date">
+            <button>Add Transaction</button>
+            <h2>Transactions</h2>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

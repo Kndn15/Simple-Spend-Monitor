@@ -13,7 +13,7 @@ To build a static version of a financial tracker using frontend skills only.
 
 ## 📁 Folder Structure
 
-CashBook/
+Simple Spend Monitor/
 ├── index.html
 ├── style.css
 ├── script.js
